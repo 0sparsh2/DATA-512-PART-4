@@ -19,7 +19,7 @@ The `report/` directory contains a detailed report with the following sections:
 
 ### 2. Code Documentation
 
-The `notebooks/` directory includes Jupyter notebooks with:
+The `notebook/` directory includes Jupyter notebooks with:
 
 - Fully documented steps for analysis.
 - Markdown cells explaining each step and its purpose.
@@ -34,14 +34,8 @@ The `data/` directory contains:
 - A `README.md` file describing each data file and its source.
 - Links to external datasets (e.g., EPA AQI API, Ephtracking government datasets).
 
-### 4. Supporting Materials
 
-The `extras/` directory contains:
-
-- Supplementary scripts, models, and other materials.
-- A `README.md` file describing their purpose.
-
-### 5. README File
+### 4. README File
 
 This `README.md` provides:
 
@@ -49,7 +43,7 @@ This `README.md` provides:
 - Instructions for reproducing results.
 - Dependencies and setup instructions.
 
-### 6. LICENSE File
+### 5. LICENSE File
 
 The repository includes a `LICENSE` file specifying usage permissions (e.g., MIT or GPL).
 
@@ -129,8 +123,8 @@ This project explores biases in air quality and health data by analyzing asthma 
 
 #### CSVs Used in the Analysis
 
-- **`Hampden_Asthma.csv`****:** Contains county-level data on asthma hospitalization rates and total hospitalizations from 1999 to 2021.
-- **`Springfield_AQI.csv`****:** Includes year-wise air quality metrics such as PM2.5 levels and smoke impact scores for Springfield.
+- **`Hampden_Asthma.csv`:** Contains county-level data on asthma hospitalization rates and total hospitalizations from 1999 to 2021.
+- **`Springfield_AQI.csv`:** Includes year-wise air quality metrics such as PM2.5 levels and smoke impact scores for Springfield.
 - **Merged Dataset:** Combines asthma hospitalization and AQI data for comprehensive analysis. Generated as part of the preprocessing step.
 
 ---

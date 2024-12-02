@@ -125,7 +125,6 @@ This project explores biases in air quality and health data by analyzing asthma 
 
 - **`Hampden_Asthma.csv`:** Contains county-level data on asthma hospitalization rates and total hospitalizations from 1999 to 2021.
 - **`Springfield_AQI.csv`:** Includes year-wise air quality metrics such as PM2.5 levels and smoke impact scores for Springfield.
-- **Merged Dataset:** Combines asthma hospitalization and AQI data for comprehensive analysis. Generated as part of the preprocessing step.
 
 ---
 
